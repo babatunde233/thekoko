@@ -299,3 +299,9 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Load PWA functionality
+const pwaScript = document.createElement('script');
+pwaScript.src = '/js/pwa.js';
+pwaScript.async = true;
+document.head.appendChild(pwaScript);
